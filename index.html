@@ -1,16 +1,359 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<title>Website Template</title>
-	<link rel="stylesheet" href="./assets/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Sparkliest Sweater</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
 
-	<h1>Website Template</h1>
-	<p>Fork and use this template repo (a.k.a. "boilerplate") for any web project</p>
-	<img src="assets/img/cat.jpg" alt="">
+<main class="story">
 
-	<script src="./assets/js/main.js"></script>
+
+    <!-- HOMEPAGE -->
+    <section class="page active">
+
+        <img src="assets/img/Homepage.JPG"
+             class="story-image"
+             alt="Gus">
+
+        <div class="text homepage-text">
+
+            <h1>The Sparkliest Sweater</h1>
+
+            <p>A story about friendship, confidence, and finding your sparkle.</p>
+
+            <button onclick="nextPage()">
+                Start Story ✦
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- GUS -->
+    <section class="page">
+
+        <img src="assets/img/1.JPG"
+             class="story-image"
+             alt="Gus">
+
+        <div class="text left-text">
+
+            <p>
+                Meet Gus! Gus is known for his long, silver fur
+                and the fluffiest tail around. He loves being admired,
+                and he knows just how special his beautiful coat is.
+            </p>
+
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousPage()">← Back</button>
+            <button onclick="nextPage()">Next →</button>
+        </div>
+
+    </section>
+
+
+    <!-- FRISKIES ACCIDENT -->
+    <section class="page">
+
+        <img src="assets/img/2.JPG"
+             class="story-image"
+             alt="Gus sitting in Friskies">
+
+        <div class="text left-text">
+
+            <p>
+                But one day, Gus accidentally sits right in a bowl
+                of Friskies! The food gets everywhere, tangling
+                into his long, fluffy fur.
+            </p>
+
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousPage()">← Back</button>
+            <button onclick="nextPage()">Next →</button>
+        </div>
+
+    </section>
+
+
+    <!-- SAD GUS -->
+    <section class="page">
+
+        <img src="assets/img/3.JPG"
+             class="story-image"
+             alt="Gus covered in Friskies">
+
+        <div class="text right-text">
+
+            <p>
+                Gus feels sad and embarrassed. No matter how hard
+                he tries, the mess is too tangled to brush out
+                of his beautiful coat.
+            </p>
+
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousPage()">← Back</button>
+            <button onclick="nextPage()">Next →</button>
+        </div>
+
+    </section>
+
+
+    <!-- GROOMER -->
+    <section class="page">
+
+        <img src="assets/img/4.JPG"
+             class="story-image"
+             alt="Gus before being groomed">
+
+        <div class="text right-text">
+
+            <p>
+                There is only one thing left to do.
+                Gus has to go to the groomer, where he learns
+                that his fluffy coat will have to be shaved.
+            </p>
+
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousPage()">← Back</button>
+            <button onclick="nextPage()">Next →</button>
+        </div>
+
+    </section>
+
+
+    <!-- GROOMING -->
+    <section class="page">
+
+        <img src="assets/img/5.JPG"
+             class="story-image"
+             alt="Gus being groomed">
+
+        <div class="text right-text">
+
+            <p>
+                Little by little, Gus watches his famous fluffy
+                fur disappear. Without it, he doesn't feel
+                much like himself anymore.
+            </p>
+
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousPage()">← Back</button>
+            <button onclick="nextPage()">Next →</button>
+        </div>
+
+    </section>
+
+
+    <!-- OTHER CATS -->
+    <section class="page">
+
+        <img src="assets/img/6.JPG"
+             class="story-image"
+             alt="Other cats teasing Gus">
+
+        <div class="text right-text">
+
+            <p>
+                The other cats see Gus without his beautiful coat
+                and begin to tease him. Gus tries not to care,
+                but their laughter makes him feel even worse.
+            </p>
+
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousPage()">← Back</button>
+            <button onclick="nextPage()">Next →</button>
+        </div>
+
+    </section>
+
+
+    <!-- RALPHIE ARRIVES -->
+    <section class="page">
+
+        <img src="assets/img/7.JPG"
+             class="story-image"
+             alt="Ralphie">
+
+        <div class="text right-text">
+
+            <p>
+                Then one day, Gus's owner comes home with a new
+                kitten named Ralphie.
+            </p>
+
+            <p>
+                Ralphie instantly befriends Gus.
+            </p>
+
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousPage()">← Back</button>
+            <button onclick="nextPage()">Next →</button>
+        </div>
+
+    </section>
+
+
+    <!-- GUS AND RALPHIE -->
+    <section class="page">
+
+        <img src="assets/img/8.JPG"
+             class="story-image"
+             alt="Gus and Ralphie">
+
+        <div class="text right-text">
+
+            <p>
+                Gus tells Ralphie why he has been so sad.
+                Ralphie listens carefully and decides he wants
+                to do something special for his new friend.
+            </p>
+
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousPage()">← Back</button>
+            <button onclick="nextPage()">Next →</button>
+        </div>
+
+    </section>
+
+
+    <!-- CRAFT ROOM -->
+    <section class="page">
+
+        <img src="assets/img/9.JPG"
+             class="story-image"
+             alt="Ralphie in the craft room">
+
+        <div class="text left-text">
+
+            <p>
+                Later that night, Ralphie sneaks into the craft room.
+                He gathers some fabric and gets to work on a surprise
+                just for Gus.
+            </p>
+
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousPage()">← Back</button>
+            <button onclick="nextPage()">Next →</button>
+        </div>
+
+    </section>
+
+
+    <!-- PLAIN SWEATER -->
+    <section class="page">
+
+        <img src="assets/img/10.JPG"
+             class="story-image"
+             alt="A sweater for Gus">
+
+        <div class="text left-text">
+
+            <p>
+                Ralphie carefully sews the fabric together
+                until he has made Gus his very own sweater.
+            </p>
+
+            <p>
+                But something is missing...
+            </p>
+
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousPage()">← Back</button>
+            <button onclick="nextPage()">Next →</button>
+        </div>
+
+    </section>
+
+
+    <!-- EXTRA SPARKLE -->
+    <section class="page">
+
+        <img src="assets/img/11.JPG"
+             class="story-image"
+             alt="The sparkly sweater">
+
+        <div class="text right-text">
+
+            <p>
+                Ralphie knows Gus deserves something extra special.
+                So he adds as much color and sparkle as he can.
+            </p>
+
+            <p>
+                Now it is perfect for Gus.
+            </p>
+
+        </div>
+
+        <div class="navigation">
+            <button onclick="previousPage()">← Back</button>
+            <button onclick="nextPage()">Next →</button>
+        </div>
+
+    </section>
+
+
+    <!-- FINAL -->
+    <section class="page">
+
+        <img src="assets/img/12.JPG"
+             class="story-image"
+             alt="Gus wearing his sparkliest sweater">
+
+        <div class="text right-text">
+
+            <p>
+                Ralphie gives Gus the sweater, and Gus loves it.
+                For the first time since losing his fur,
+                Gus finally feels special again.
+            </p>
+
+            <p class="ending">
+                Gus realizes that sometimes it takes a true friend
+                to see your sparkle, even when you feel like
+                you're not shining.
+            </p>
+
+            <button onclick="restartStory()">
+                Read Again ↻
+            </button>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+<script src="assets/js/script.js"></script>
+
 </body>
 </html>
